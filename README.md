@@ -16,8 +16,8 @@ Take in an array of keys and orders and re-order the entire array based on that
 input.
 
 ```typescript
-import { orderBy } from "@withonevision/array-helpers"
-const array = [{key1: "Hello"}, {key1: "Goodbye"}];
+import { orderBy } from "@withonevision/array-helpers";
+const array = [{ key1: "Hello" }, { key1: "Goodbye" }];
 orderBy(array, ["key1"], ["asc"]);
 // [{key1: "Goodbye"}, {key1: "Hello"}]
 ```
@@ -27,7 +27,9 @@ orderBy(array, ["key1"], ["asc"]);
 Return the unique values in an array based off of a key.
 
 ```typescript
-const array = [{key1: "Hello"}, {key1: "Goodbye"}, {key1: "Hello"}];
+const array = [{ key1: "Hello" }, { key1: "Goodbye" }, { key1: "Hello" }];
 uniqBy(array, "key1");
 // [{key1: "Hello"}, {key1: "Goodbye"}]
 ```
+
+For a full list of functions, see the [jsr.io documentation](https://jsr.io/@withonevision/array-helper/doc)
