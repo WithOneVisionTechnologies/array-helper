@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/WithOneVisionTechnologies/array-helper/compare/v1.1.0...v1.1.1) (2024-12-05)
+
+
+### Bug Fixes
+
+* **repo:** Updating docs link in readme. ([54c6925](https://github.com/WithOneVisionTechnologies/array-helper/commit/54c6925dc977364dd080251775e927ed53cf6d68))
+
 # [1.1.0](https://github.com/WithOneVisionTechnologies/array-helper/compare/v1.0.0...v1.1.0) (2024-12-05)
 
 
