@@ -6,7 +6,7 @@ LoDash and Underscore that we didn't want to carry the weight of those installs.
 ## Methods
 
 - [Array Helper](#array-helper)
-  - [Methods](#methods)
+   - [Methods](#methods)
       - [orderBy](#orderby)
       - [uniqBy](#uniqby)
 
@@ -32,4 +32,4 @@ uniqBy(array, "key1");
 // [{key1: "Hello"}, {key1: "Goodbye"}]
 ```
 
-For a full list of functions, see the [jsr.io documentation](https://jsr.io/@withonevision/array-helper/doc)
+For a full list of functions, see the [jsr.io documentation](https://jsr.io/@withonevision/array-helper/doc/~/ArrayHelper)
