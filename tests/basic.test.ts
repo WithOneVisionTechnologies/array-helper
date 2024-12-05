@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import ArrayHelper, { orderByDirection } from "../src";
+import ArrayHelper from "../src";
 
 describe("ArrayHelper", () => {
    it("should order by keys and directions", () => {
@@ -11,7 +11,7 @@ describe("ArrayHelper", () => {
       ];
 
       const keys = ["name", "age"];
-      const directions: orderByDirection[] = ["asc", "desc"];
+      const directions: ("asc" | "desc")[] = ["asc", "desc"];
 
       const result = ArrayHelper.orderBy(arr, keys, directions);
 
